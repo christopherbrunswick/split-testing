@@ -171,6 +171,70 @@ df.describe().T
 df.isnull().sum()
 
 
+# ### Visualizing random variables
+
+# In[14]:
+
+
+# finding outliers of this random variable
+import logging
+logging.getLogger('matplotlib.font_manager').disabled=True
+
+def visualize(df, feature):
+    data = df[feature]
+    plt.subplot(121)
+    plot_1 = sns.countplot(df, x=feature)
+    return plot_1
+
+
+# In[15]:
+
+
+visualize(df, 'group')
+
+
+# In[30]:
+
+
+df['group'].unique()
+
+
+# In[16]:
+
+
+visualize(df, 'landing_page')
+
+
+# In[31]:
+
+
+df['landing_page'].unique()
+
+
+# In[17]:
+
+
+visualize(df, 'converted')
+
+
+# In[32]:
+
+
+df['converted'].unique()
+
+
+# In[23]:
+
+
+df['converted'].value_counts()
+
+
+# In[24]:
+
+
+df['converted'].value_counts().sum()
+
+
 # In[7]:
 
 
