@@ -5,6 +5,8 @@
 # 
 # Article Used: https://kishantongs.medium.com/a-b-testing-kaggle-dataset-469f3ecd2da7#:~:text=Data%20Collection%3A%20A%2FB%20tests,measurements%20depending%20on%20the%20objective. 
 # 
+# Article Used: https://towardsdatascience.com/ab-testing-with-python-e5964dd66143
+# 
 # 1. <strong>Definition</strong>: A/B testing, also known as split testing, is a method of comparing two versions of a webpage, app, email, or other marketing assets to determine which one performs better. It’s a crucial technique used in data-driven decision-making to optimize various aspects of a product or marketing strategy.
 # 
 # 
